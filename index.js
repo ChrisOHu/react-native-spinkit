@@ -1,13 +1,12 @@
 import React from 'react'
-import ReactNative from 'react-native'
 import PropTypes from 'prop-types';
 
-var {
+import {
 	NativeModules,
 	processColor,
 	requireNativeComponent,
 	View
-} = ReactNative;
+} from 'react-native';
 
 var RNSpinkit = null;
 
